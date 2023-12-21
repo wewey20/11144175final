@@ -9,6 +9,8 @@
     --yellow: #FFBD13;
     --blue: #4383FF;
     --blue-d-1: #3278FF;
+    --dark-blue: #081b29;
+    --light-blue: #cac7ff;
     --light: #F5F5F5;
     --grey: #AAA;
     --white: #FFF;
@@ -16,7 +18,7 @@
 }
 
 body {
-    background: var(--light);
+    background: #081b29;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,19 +26,22 @@ body {
 }
 
 .wrapper {
-    background: var(--white);
+    background: #1C3C60;
     padding: 2rem;
     max-width: 576px;
     width: 100%;
     border-radius: .75rem;
     box-shadow: var(--shadow);
     text-align: center;
+    border-color: #F5F5F5;
+    border-style: solid;
 }
 
 .wrapper h3 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: #FFF;
 }
 
 .rating {
@@ -45,7 +50,7 @@ body {
     align-items: center;
     grid-gap: .5rem;
     font-size: 2rem;
-    color: var(--yellow);
+    color: #00abf0;
     margin-bottom: 2rem;
 }
 
