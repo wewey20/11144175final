@@ -1,1 +1,1 @@
-[Link to Main Page](details3.html)
+[Link to Main Page](rating.html)
